@@ -119,3 +119,84 @@ main .general-content-formatting .container-comics .comic-card h4 {
   padding: 20px 0 10px;
   font-weight: 400;
 }
+
+footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center top;
+}
+footer .top {
+  flex-grow: 1;
+  height: 100%;
+  background-image: url("../images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+footer .top .footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .top .footer-top .footer-top-menus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 0 2.8125rem;
+  padding-left: 0rem;
+}
+footer .top .footer-top .footer-top-menus .first-menu {
+  padding: 0.625rem 0;
+  padding-right: 0.9375rem;
+}
+footer .top .footer-top .footer-top-menus .menu {
+  padding: 0.625rem 1.25rem;
+}
+footer .top .footer-top .footer-top-menus h4 {
+  font-size: 1.25rem;
+  padding: 0.8125rem;
+  padding-left: 0rem;
+  color: white;
+}
+footer .top .footer-top .footer-top-menus ul {
+  list-style: none;
+}
+footer .top .footer-top .footer-top-menus ul li a {
+  text-decoration: none;
+  color: grey;
+}
+footer .bottom {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #303030;
+}
+footer .bottom .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.875rem 0;
+}
+footer .bottom .footer-bottom .left-clm button {
+  padding: 0.625rem;
+  background-color: #303030;
+  border: 1px solid #0282f9;
+  color: white;
+  font-weight: bold;
+  border-style: solid;
+}
+footer .bottom .footer-bottom .right-clm {
+  display: flex;
+  align-items: center;
+}
+footer .bottom .footer-bottom .right-clm h4 {
+  padding-right: 1.225rem;
+}
+footer .bottom .footer-bottom .right-clm h4 a {
+  text-decoration: none;
+  color: #0282f9;
+}
+footer .bottom .footer-bottom .right-clm .footer-logo-socials {
+  padding: 0 0.625rem 0;
+}
+footer .bottom .footer-bottom .right-clm .footer-logo-socials:last-child {
+  padding-right: 0;
+}

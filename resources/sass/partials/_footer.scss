@@ -1,0 +1,87 @@
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-position: center top;
+    .top{
+        flex-grow: 1;
+        height: 100%;
+        background-image: url('../images/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        .footer-top{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            .footer-top-menus{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                width: 100%;
+                padding: 0 0 2.8125rem;
+                padding-left: 0rem;
+                .first-menu{
+                    padding: .625rem 0;
+                    padding-right: .9375rem;
+                }
+                .menu{
+                    padding: .625rem 1.25rem;
+                }
+                h4{
+                    font-size: 1.25rem;
+                    padding: .8125rem;
+                    padding-left: 0rem;
+                    color:white;
+                }
+                ul{
+                    list-style: none;
+                    li{
+                        
+                        a{
+                            text-decoration: none;
+                            color: grey;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .bottom{
+        flex-grow: 1;
+        height: 100%;
+        background-color: #303030;
+        .footer-bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.875rem 0;
+            .left-clm{
+                button{
+                    padding: .625rem;
+                    background-color: #303030;
+                    border: 1px solid $site-features_primary_background_color; 
+                    color: white;
+                    font-weight: bold;
+                    border-style: solid;
+                }
+            }
+            .right-clm{
+                display: flex;
+                align-items: center;
+                h4{
+                    padding-right: 1.225rem;
+                    a{
+                        text-decoration: none;
+                        color: $site-features_primary_background_color;
+                    }
+                }
+                .footer-logo-socials{
+                    padding: 0 .625rem 0;
+                    &:last-child{
+                        padding-right: 0;
+                    }
+                }
+                
+            }
+        }
+    }
+}
