@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 body{
     font-family: 'Open Sans', sans-serif;
-    color: $primary_background_color;
+    background-color: $primary_background_color;
+
     .general-content-formatting{
         width: 80%;
         margin: auto;
@@ -15,11 +16,12 @@ body{
     button{
         background-color: $btn_primary_color;
         color: $btn_text_primary_color;
+        cursor: pointer;
         width: 200px;
         height: 40px;
         padding: 5px;
         font-weight: 600;
-        font-size: 18px;
+        font-size: 16px;
         border: 0;
     }
 }
