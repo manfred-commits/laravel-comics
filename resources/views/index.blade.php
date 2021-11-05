@@ -20,4 +20,22 @@
             <button>LOAD MORE</button>
         </div>
     </section>
+    <div class="features-line">
+        <section class="general-content-formatting site-features">
+    
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="container-img">
+                            
+                            <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
+                            
+                        </div>
+                        <h4></h4>
+                    </a>
+                </li>
+            </ul>
+    
+        </section>
+    </div>
 @endsection

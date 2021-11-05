@@ -1,0 +1,36 @@
+.features-line{
+    margin-top: 20px;
+    background-color: $site-features_primary_background_color;
+    display: flex;
+    align-items: center;
+    .site-features{
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                padding: 1.875rem 0;
+                a{
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 400;
+                    .container-img{
+                        height: 60px;
+                        img{
+                            object-fit: cover;
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    h4{
+                        padding: .3125rem;
+                    }
+                }
+            }
+        }
+    }
+    
+}

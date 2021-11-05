@@ -120,6 +120,41 @@ main .general-content-formatting .container-comics .comic-card h4 {
   font-weight: 400;
 }
 
+.features-line {
+  margin-top: 20px;
+  background-color: #0282f9;
+  display: flex;
+  align-items: center;
+}
+.features-line .site-features ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.features-line .site-features ul li {
+  padding: 1.875rem 0;
+}
+.features-line .site-features ul li a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+.features-line .site-features ul li a .container-img {
+  height: 60px;
+}
+.features-line .site-features ul li a .container-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.features-line .site-features ul li a h4 {
+  padding: 0.3125rem;
+}
+
 footer {
   background-image: url("../images/footer-bg.jpg");
   background-position: center top;
