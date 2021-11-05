@@ -31,7 +31,47 @@
                             <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
                             
                         </div>
-                        <h4></h4>
+                        <h4>DIGITAL COMICS</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="container-img">
+                            
+                            <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
+                            
+                        </div>
+                        <h4>DC MERCHANDISE</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="container-img">
+                            
+                            <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
+                            
+                        </div>
+                        <h4>SUBSCRIPTION</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="container-img">
+                            
+                            <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
+                            
+                        </div>
+                        <h4>COMIC SHOP LOCATION</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="container-img">
+                            
+                            <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
+                            
+                        </div>
+                        <h4>DC POWER VISA</h4>
                     </a>
                 </li>
             </ul>
