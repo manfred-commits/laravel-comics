@@ -1,7 +1,7 @@
 <header>
     <div class="general-content-formatting">
         <nav>
-            <div class="container-img">
+            <div class="logo-container">
                 <img src="{{asset('./images/dc-logo.png')}}" alt=" Detective Comics small logo">
             </div>
             
