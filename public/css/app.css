@@ -6,7 +6,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 body .general-content-formatting {
   width: 80%;
@@ -21,29 +21,48 @@ body .flex-center {
 body button {
   background-color: #0282f9;
   color: #fff;
+  cursor: pointer;
   width: 200px;
   height: 40px;
   padding: 5px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   border: 0;
 }
 
-main .container-comics {
+main .general-content-formatting {
+  position: relative;
+  padding-top: 20px;
+}
+main .general-content-formatting .title-section {
+  position: absolute;
+  top: -30px;
+  left: -15px;
+}
+main .general-content-formatting .title-section button {
+  font-size: 18px;
+}
+main .general-content-formatting .container-comics {
   align-items: flex-start;
 }
-main .container-comics .comic-card {
+main .general-content-formatting .container-comics .comic-card {
   width: 16.6666666667%;
+  padding: 10px 10px 0;
 }
-main .container-comics .comic-card .img-container {
+main .general-content-formatting .container-comics .comic-card .img-container {
   width: 100%;
   height: 220px;
 }
-main .container-comics .comic-card .img-container img {
+main .general-content-formatting .container-comics .comic-card .img-container img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center top;
      object-position: center top;
   width: 100%;
   height: 100%;
+}
+main .general-content-formatting .container-comics .comic-card h4 {
+  color: #f1fbff;
+  padding: 20px 0 10px;
+  font-weight: 400;
 }

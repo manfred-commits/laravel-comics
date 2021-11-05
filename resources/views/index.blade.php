@@ -3,7 +3,7 @@
 @section('mainContent')
     <section class="general-content-formatting flex-center">
         <div class="title-section">
-            <h2>CURRENT SERIES</h2>
+            <button>CURRENT SERIES</button>
         </div>
         <div class="container-comics flex-center">
             @foreach ($data as $comic)
