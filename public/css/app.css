@@ -29,6 +29,59 @@ body button {
   font-size: 16px;
   border: 0;
 }
+body a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #ffffff;
+}
+header .general-content-formatting nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  font-weight: bold;
+}
+header .general-content-formatting nav .container-img {
+  height: 5rem;
+}
+header .general-content-formatting nav .container-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+header .general-content-formatting nav ul {
+  display: flex;
+  list-style: none;
+}
+header .general-content-formatting nav ul li:last-child {
+  padding-right: 0rem;
+  margin-right: 0rem;
+}
+header .general-content-formatting nav ul li {
+  padding: 2.5rem 0;
+  margin: 0rem 1rem;
+}
+header .general-content-formatting nav ul li.active {
+  color: #0282f9;
+  border-bottom: 0.1875rem solid #0282f9;
+}
+header .general-content-formatting nav ul li.active a {
+  color: #0282f9;
+}
+header .general-content-formatting nav ul li a {
+  color: #46464c;
+}
+
+.container-hero {
+  background-image: url("../images/jumbotron.jpg");
+  background-position: center top;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+}
 
 main .general-content-formatting {
   position: relative;
