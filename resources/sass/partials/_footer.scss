@@ -11,6 +11,7 @@ footer{
             display: flex;
             align-items: flex-start;
             justify-content: space-between;
+            width: 100%;
             .footer-top-menus{
                 display: flex;
                 flex-wrap: wrap;
@@ -40,6 +41,14 @@ footer{
                             color: grey;
                         }
                     }
+                }
+            }
+            .trademark-section{
+                width: 100%;
+                color: $footer_top_trademark_text_color;
+                padding-top: 20px;
+                a{
+                    color: $footer_top_trademark_a_color;
                 }
             }
         }

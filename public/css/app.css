@@ -207,6 +207,7 @@ footer .top .footer-top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  width: 100%;
 }
 footer .top .footer-top .footer-top-menus {
   display: flex;
@@ -235,6 +236,14 @@ footer .top .footer-top .footer-top-menus ul {
 footer .top .footer-top .footer-top-menus ul li a {
   text-decoration: none;
   color: grey;
+}
+footer .top .footer-top .trademark-section {
+  width: 100%;
+  color: grey;
+  padding-top: 20px;
+}
+footer .top .footer-top .trademark-section a {
+  color: #0282f9;
 }
 footer .bottom {
   flex-grow: 1;
