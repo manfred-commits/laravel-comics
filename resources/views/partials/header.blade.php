@@ -1,4 +1,14 @@
 <header>
+    <div class="top-header-bar">
+        <div class="general-content-formatting">
+            <h4>DC POWER&#8480; VISA&#174;</h4>
+            <div class="top-header-dropdown">
+                <h4>ADDITIONAL DC SITES</h4>
+                <i class="fas fa-caret-down"></i>
+            </div>
+
+        </div>
+    </div>
     <div class="general-content-formatting">
         <nav>
             <div class="container-img">

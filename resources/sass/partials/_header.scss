@@ -1,6 +1,27 @@
 header{
     
     background-color: $nav_primary_background_color;
+    .top-header-bar{
+        
+        background-color: $top_header_bar_primary__background_color;
+        .general-content-formatting{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: $top_header_bar_primary__text_color;
+            font-size: 14px;
+            .top-header-dropdown{
+                padding: 5px 0;
+                padding-left: 70px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                i{
+                    padding-left: 10px;
+                }  
+            }
+        }
+    }
     .general-content-formatting{
         
         nav{

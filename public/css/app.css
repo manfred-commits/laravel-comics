@@ -42,6 +42,26 @@ body input {
 header {
   background-color: #ffffff;
 }
+header .top-header-bar {
+  background-color: #0282f9;
+}
+header .top-header-bar .general-content-formatting {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+}
+header .top-header-bar .general-content-formatting .top-header-dropdown {
+  padding: 5px 0;
+  padding-left: 70px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .top-header-bar .general-content-formatting .top-header-dropdown i {
+  padding-left: 10px;
+}
 header .general-content-formatting nav {
   display: flex;
   align-items: center;
