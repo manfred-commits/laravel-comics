@@ -23,6 +23,7 @@ header{
             }
             ul{
                 display: flex;
+                align-items: center;
                 list-style: none;
                 li:last-child{
                    padding-right: 0rem; 
@@ -41,7 +42,18 @@ header{
                     }
                     a{
                         color: $nav_primary_text_color;
+                        font-size: 14px;
+                        .dropdown-shop-arrow{
+                            color: $search_bar_primary_color;
+                        }
                     }
+                }
+                li.container-search-bar{
+                    padding: 0;
+                    .search-bar{
+                        border-bottom: 3px solid $search_bar_primary_color;
+                    }
+
                 }
             }
         }

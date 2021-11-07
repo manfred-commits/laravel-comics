@@ -32,6 +32,12 @@ body button {
 body a {
   text-decoration: none;
 }
+body input {
+  height: 30px;
+  width: 100px;
+  text-align: right;
+  border: 0;
+}
 
 header {
   background-color: #ffffff;
@@ -54,6 +60,7 @@ header .general-content-formatting nav .container-img img {
 }
 header .general-content-formatting nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
 }
 header .general-content-formatting nav ul li:last-child {
@@ -73,6 +80,16 @@ header .general-content-formatting nav ul li.active a {
 }
 header .general-content-formatting nav ul li a {
   color: #46464c;
+  font-size: 14px;
+}
+header .general-content-formatting nav ul li a .dropdown-shop-arrow {
+  color: #0282f9;
+}
+header .general-content-formatting nav ul li.container-search-bar {
+  padding: 0;
+}
+header .general-content-formatting nav ul li.container-search-bar .search-bar {
+  border-bottom: 3px solid #0282f9;
 }
 
 .container-hero {

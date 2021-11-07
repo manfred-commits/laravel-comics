@@ -53,11 +53,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a  href="#">
                         SHOP
+                        <i class="dropdown-shop-arrow fas fa-caret-down"></i>
                     </a>
-                </li>                  
-                
+                </li>  
+                <li class="container-search-bar">
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search">
+                        <i class="fas fa-search"></i> 
+                    </div>
+                </li>                
                 
 
             </ul>            
